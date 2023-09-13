@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.page-title{
+    text-align: left;
+}
+
+h1, h2{
+    font-family: Palatino, URW Palladio L, serif;
+    font-style: italic;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+img{
+    float: right;
+    margin: 10px 10px;
+    border-color: orange;
+    border-width: thick;
+    border-style: double;
+}
+
+p, li{
+    font-size: 20px;
+}
+
+a{
+    color: orange;
+    font-style: italic;
+}
+
+body{
+    color: orange;
+    background-position: top;                   /*  Start at the top of webpage */
+    background-repeat: no-repeat;               /*  Do not repeat picture   */
+    background-size: cover;                     /*  Cover the page  */
+    overflow-x: hidden;                         /*  Removes bottom scroll bar   */
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 30px;
+}
+
+button{
+    background-color: orange;
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px 10px; 
+    border: none;
+    border-radius: 25px;
+    float: right;
+    text-align: center;
+}
+
+.nav-menu{
+    border-color: orange;
+    border-width: thin;
+    position: fixed;
+    text-align: left;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nav-options a{         
+    color: orange;
+    padding:  10px 10px;
+    border-radius: 25px;
+    font-size: 20px;        /*  Menu Font size  */
+    text-align: center;
+    float: left;            /*  Float in left area  */
+    text-decoration: none;
+}
+
+/****************  PAGE 1 CSS DETAILS BELOW    ******************************/
+
+.nav-menu-1{
+    background-color:  #267af1;
+    padding: 10px 10px;
+    height: 100%;
+    width: 150px;
+    left: 0;
+}
+
+.nav-options-1 a:hover{
+    background: #0c57c0;
+}
+
+.switch-1{
+    color: #267af1;
+}
+
+.me{
+    height:400px;
+    width: 300px;
+    float: right;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.about{
+    margin-right: 100px;
+}
+
+.career{
+    display: contents;
+}
+
+.career-content li{
+    display: none;
+    position: absolute;
+    z-index: 0;
+    min-width: 800px;
+}
+
+.career:hover .career-content li{
+    display: contents;
+}
+
+.body-1{
+    background-image: url("MorningPg1.jpg");    /*  Background picture  */
+}
+
+/****************  PAGE 2 CSS DETAILS BELOW    ******************************/
+
+.nav-menu-2{
+    background-color:  #2647f1;
+    padding: 10px 10px;
+    height: 100%;
+    width: 150px;
+    left: 0;
+}
+
+.nav-options-2 a:hover{
+    background: #0c2ac0;
+}
+
+.switch-2{
+    color: #2647f1;
+}
+
+.arcade{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 600px;
+    height: 540px;
+    margin-right: 10px;
+}
+
+.project{
+    margin-right: 50px;
+    width: 100%;
+}
+
+.college-project{ 
+    margin-right: 700px;
+}
+
+.column-1{
+    float: right;
+    width: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row{
+    padding: 10px 10px 10px 10px;
+}
+
+.body-2{
+    background-image: url("MorningPg2.jpg");
+}
+
+/****************  PAGE 3 CSS DETAILS BELOW    ******************************/
+
+.nav-menu-3{
+    background-color:  #2d2ad4;
+    padding: 10px 10px;
+    height: 100%;
+    width: 150px;
+    left: 0;
+}
+
+.nav-options-3 a:hover{
+    background: #151386;
+}
+
+.switch-3{
+    color: #2d2ad4;   
+}
+
+.resume{
+    width: 300px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.resume-link{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.cert-link{
+    padding-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+.body-3{
+    background-image: url("MiddayPg3.jpg");  
+}
+
+/****************  PAGE 4 CSS DETAILS BELOW    ******************************/
+
+.nav-menu-4{
+    background-color: #0A14A9;
+    padding: 10px 10px;
+    height: 100%;
+    width: 150px;
+    left: 0;
+}
+
+.nav-options-4 a:hover{
+    background: #060c60;
+}
+
+.switch-4{
+    color: #0A14A9;
+}
+
+.service{
+    position: relative;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.body-4{
+    background-image: url("DuskPg4.jpg");  
+}

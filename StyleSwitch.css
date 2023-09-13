@@ -1,0 +1,255 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.page-title{
+    text-align: left;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    color: #33ffff;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color: #970bf4;
+}
+
+img{
+    float: left;
+    border-width: thin;
+    border-color:#33ffff;
+    border-style: solid;
+    border-width: 10px;
+}
+
+h2, h3{
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.first{
+    margin-top: 105px;
+}
+
+p, li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    /*  Font type   */
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+body{
+    color: #33ffff;
+    height: 100%;                               /*  Fill the webpage    */
+    background-position: top;                   /*  Start at the top of webpage */
+    background-repeat: no-repeat;               /*  Do not repeat picture   */
+    background-size: cover;                     /*  Cover the page  */
+    overflow-x: hidden;                         /*  Removes bottom scroll bar   */
+}
+
+button{
+    color: #970bf4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: thick;
+    float: right;
+    text-align: center;
+    background-color:#33ffff;
+    padding: 10px 10px;
+}
+
+.nav-menu{
+    border-color: #33ffff;
+    border-width: thick;
+    border-style: solid;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-options a{
+    color:  #970bf4;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;                            /*  Menu Font size  */
+    float: left;                                /*  Float in left area  */
+    text-align: center;
+    padding:  10px 10px;
+    text-decoration: none;
+}
+
+.nav-options a:hover{
+    background:  #b655f7;
+}
+
+/****************  PAGE 1 CSS DETAILS BELOW    ******************************/
+
+.body-1{                                           /*  Body Section    */
+    background-image: url("Crosswork_-_Pg1.png");    /*  Background picture  */
+    margin-left: 50px;
+    padding-right: 50px;
+    left: 0;
+}
+
+.about{
+    background: #33ffff;
+    width: 100%;
+    height: auto;
+    right: 0;
+    color:  #970bf4;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.me{
+    height: 300px;
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.career{
+    border-color: #33ffff;
+    border-style: solid;
+    border-width: thick;
+    margin-top: 10px;
+    width: auto;
+    float: right;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.career h2{
+    margin-right: 50px;
+}
+
+.career-content{
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.career-content li{ 
+    display: none;
+    position: absolute;
+    z-index: 0;
+    min-width: 800px;
+}
+
+.career:hover .career-content li{
+    display: contents;
+}
+
+/****************  PAGE 2 CSS DETAILS BELOW    ******************************/
+
+.body-2{                                           /*  Body Section    */
+    background-image: url("LineartPg2.jpg");    /*  Background picture  */
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.column-1 img{
+    float: left;
+    width: 800px;
+    height: 750px;
+    margin-bottom: 50px;
+}
+
+.college-project{
+    margin-left: 850px;
+    background-color: #33ffff;
+    color:#970bf4;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.class-projects li{
+    margin-left: 900px;
+    display: none;
+    position: absolute;
+    z-index: 0;
+    min-width: 800px;
+}
+
+.college-project:hover .class-projects li, ul{
+    display: contents;
+}
+
+/****************  PAGE 3 CSS DETAILS BELOW    ******************************/
+
+
+.body-3{                                           /*  Body Section    */
+    background-image: url("Helix_-_Pg3.png");    /*  Background picture  */
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.body-3 li{
+    width: auto;
+    float: left;
+}
+
+.resume{
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.resume-link{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin-left: 75px;
+    float: left;
+}
+
+.cert-link{
+    padding-top: 10px;
+    margin-right: 75px;
+    float: right;
+    width: 50%;
+}
+
+
+/****************  PAGE 4 CSS DETAILS BELOW    ******************************/
+
+.body-4{                                           /*  Body Section    */
+    background-image: url("GlitchCoverPg4.jpg");    /*  Background picture  */
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.service{
+    border:#33ffff;
+    border-width: thick;
+    border-style: solid;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service li{
+    margin-left: 20px;
+}
