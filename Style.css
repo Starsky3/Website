@@ -118,23 +118,12 @@ button{
     margin-right: 100px;
 }
 
-.career{
-    display: contents;
-}
-
-.career-content li{
-    display: none;
-    position: absolute;
-    z-index: 0;
-    min-width: 800px;
-}
-
-.career:hover .career-content li{
-    display: contents;
-}
-
 .body-1{
     background-image: url("MorningPg1.jpg");    /*  Background picture  */
+}
+
+.body-1 h2{ 
+    margin-bottom: 20px;
 }
 
 /****************  PAGE 2 CSS DETAILS BELOW    ******************************/
@@ -187,6 +176,10 @@ button{
     background-image: url("MorningPg2.jpg");
 }
 
+.body-2 h2{ 
+    margin-bottom: 20px;
+}
+
 /****************  PAGE 3 CSS DETAILS BELOW    ******************************/
 
 .nav-menu-3{
@@ -205,27 +198,48 @@ button{
     color: #2d2ad4;   
 }
 
+.body-3 h2{
+    column-span: all;
+}
+
 .resume{
-    width: 300px;
+    columns: auto;
+    column-count: 3;
+    column-fill: initial;
+    column-rule-style: solid;
+    column-rule-color: orange;
+    column-rule-width: 1px;
+    column-width: 400px;
     float: right;
-    padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.resume-blurb{
+    max-height: 500px;
+    column-count: 1;
 }
 
 .resume-link{
-    padding-right: 10px;
     padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin-left: 75px;
+    float: left;
 }
 
 .cert-link{
     padding-top: 10px;
-    float: left;
-    width: 100%;
+    margin-right: 75px;
+    float: right;
+    width: 50%;
 }
 
 .body-3{
     background-image: url("MiddayPg3.jpg");  
 }
+
+
 
 /****************  PAGE 4 CSS DETAILS BELOW    ******************************/
 

@@ -28,7 +28,7 @@ img{
     border-width: 10px;
 }
 
-h2, h3{
+h2, h3, h4{
     padding-top: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
@@ -38,7 +38,7 @@ h2{
     font-size: 30px;
 }
 
-h3{
+h3, h4{
     font-size: 25px;
 }
 
@@ -203,29 +203,37 @@ button{
     margin-left: 50px;
 }
 
-.body-3 li{
-    width: auto;
-    float: left;
-}
 
 .resume{
-    float: left;
-    padding-top: 10px;
-    padding-right: 10px;
+    float: right;
+}
+
+.resume-blurb{
+    border-style: solid;
+    border-color:#33ffff;
+    border-width: thick;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+.resume1{
+    float: right;
 }
 
 .resume-link{
+    text-align: left;
     padding-top: 10px;
     padding-right: 10px;
-    padding-bottom: 30px;
-    margin-left: 75px;
-    float: left;
+    padding-bottom: 10px;
 }
 
 .cert-link{
+    text-align: left;
     padding-top: 10px;
-    margin-right: 75px;
-    float: right;
+    padding-bottom: 30px;
     width: 50%;
 }
 
@@ -236,20 +244,34 @@ button{
     background-image: url("GlitchCoverPg4.jpg");    /*  Background picture  */
     margin-right: 50px;
     margin-left: 50px;
-    margin-bottom: 10px;
+}
+
+.body-4 h2{
+    text-align: center;
+}
+
+.service-content p{ 
+    display: none;
+    position: absolute;
+    z-index: 0;
+}
+
+.service:hover .service-content p{
+    display: contents;
 }
 
 .service{
     border:#33ffff;
+    background: #33ffff;
+    color:#970bf4;
     border-width: thick;
     border-style: solid;
     padding-right: 10px;
     padding-left: 10px;
-    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.service li{
-    margin-left: 20px;
+.service-content{
+    margin-bottom: 20px;
 }
